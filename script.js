@@ -77,3 +77,10 @@ const tasks = [
     { title: "Networks", hours: 2, completed: false }
 ];
 
+
+
+const completedTasks = tasks.filter(function(task) {
+    return task.completed;
+});
+
+console.log(completedTasks);
